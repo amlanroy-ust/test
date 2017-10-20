@@ -2,9 +2,10 @@
   "name": "nodeproject",
   "version": "1.0.0",
   "description": "hello world",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
+    "start": "node app.js",
+    "test": "node test"
   },
   "keywords": [
     "hello",
@@ -14,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amlanroy-ust/test"
   }
 }
